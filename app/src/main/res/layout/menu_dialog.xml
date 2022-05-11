@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="#14213d">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:text="Info"
+            android:textColor="#d18b19"
+            android:textFontWeight="1"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="5"
+            android:gravity="center"
+            android:text="You can save your tesbihat with smart dhikr application which is designed as real tasbeeh counter that looks like a ring.
+Even you close Digital Tasbeeh Counter, the number of the dhikr will not erased. When you restart the aplication, the dhikr number will appear on the screen. You should press the button to pulse the number.
+You can save your dhikrs as the number of dhikrs, date and the name of the dhikrs to press the save button. You don 't have to check the screen, because digital tasbeeh counter app will give you vibration warning.
+You can adjust the vibration or colours from the buttons bottom on the screen. In addition to save the battary, you can use the application on night mode. Digital Tasbeeh Counter is free and you won't see any advertisement during dhikr.
+\nSpecifications
+\n✔ You can customize Digital Tasbeeh Counter with themes.
+\n✔ You can dhikr with out check the screen by the help of vibration (you can close the vibration).
+"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/noBtn"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="6dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="6dp"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/infoback"
+                android:text="No"
+                android:textAllCaps="false"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/exitBtn"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="6dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="6dp"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/infoback"
+                android:text="Exit"
+                android:textAllCaps="false"
+                android:textSize="22sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
